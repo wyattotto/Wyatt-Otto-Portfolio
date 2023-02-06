@@ -103,7 +103,17 @@ a{
     justify-content: center;
     margin-bottom: 3vh;
     margin-top: 3vh;
-
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: azure;
+}
+.Centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 .firstrow{
     display: flex;
@@ -117,6 +127,9 @@ a{
    
 }
 #main-img:hover{
+    color: blue;
+    box-shadow: 0 0 5px blue;
+    text-shadow: 0 0 5px blue;   
 
 }
 
@@ -124,6 +137,14 @@ a{
     color: #ffee10;
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;   
+}
+
+
+.div2-txt {
+    text-align: right;
+    
+
+
 }
 
 
