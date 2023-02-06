@@ -11,9 +11,9 @@
 ## Credits 
 Below is links I used to assist me with the Project
    
-   -https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-   -https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
-   -https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area
-   -https://www.w3schools.com/howto/howto_css_contact_section.asp
-   -https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+   - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+   - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+   - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area
+   - https://www.w3schools.com/howto/howto_css_contact_section.asp
+   - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
    
