@@ -1,7 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
 body{
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
+    padding: 0;
     }
 html{
     box-sizing: border-box;
@@ -22,6 +29,8 @@ header{
     
 li{
     list-style: none;
+    margin: 0;
+    padding: 0;
     }
     
 a{
@@ -41,12 +50,14 @@ a{
 
     
 .navbar{
-    width: 90%;
+    /* width: 90%;
     margin: auto;
-    min-height: 60px;
+    min-height: 60px; */
     display:flex;
     justify-content:space-between;
     align-items: center;
+    background-color: black;
+    max-width: fit-content;
   
     }
 
@@ -57,10 +68,20 @@ a{
     gap: 25px;
     font-size: 25px;
 }
+.nav-list li a {
+    color: firebrick;
+    pad:1rem;
+    display: block;
+}
+.nav-list li a:hover{
+background-color: #ffee10;
+
+}
 
 .Header-Title{ 
     font-size: 2rem;
     color: white;
+    margin: .5rem;
 }
 
 .parent {
@@ -80,7 +101,11 @@ a{
     
     
 .div2 { grid-area: 1 / 3 / 2 / 6; 
-        border: solid black}
+        border: solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     
 .div3 { grid-area: 2 / 1 / 4 / 3;
@@ -94,8 +119,21 @@ a{
         border: solid black }
     
     
-.div5 { grid-area: 4 / 1 / 5 / 6;
-        border: solid black }
+.div5 { grid-area: 4 / 1 / 5 / 3;
+    height: 250px;
+    border: solid black;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.div6 {
+    grid-area: 4 / 3 / 5 / 6;
+    border: solid black;
+    height: 250px;
+    
+}        
     
 
 .mainrow{
@@ -141,12 +179,34 @@ a{
 
 
 .div2-txt {
-    text-align: right;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
+}
+.bottom-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    max-width: fit-content;
 
-
+    
+}
+.Contact-link{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    font-size: 20px;
+    color: black;
+    max-width: fit-content;
+    
 }
 
+img{
+    max-width: 100%;
+    display: block;
+    border: blue 2px solid
+}
 
 
 
@@ -156,8 +216,25 @@ a{
  
 
 
-@media(max-width:1980px) {
+@media(max-width:1280px) {
         .container{
-            width: 100%;
+            margin:2rem;
+
+        }
+        .container1{
+            margin: 1rem;
+        
+        }
+        .Contact-link{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        .bottom-nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
