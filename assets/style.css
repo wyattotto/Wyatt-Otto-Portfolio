@@ -215,7 +215,7 @@ background-color: #ffee10;
     
 }
 
-.row-img{
+.row-img .main-img{
     display: flex;
     border: blue 2px solid
     }
